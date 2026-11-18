@@ -217,6 +217,7 @@ main.wrap { padding-bottom: 80px; }  /* bottom space on every page, and above th
     grid-template-columns: 280px 1fr;
     gap: 48px;
     align-items: center;        /* photo is vertically centered on the intro text */
+    padding-top: 48px;          /* space between the nav bar and the intro */
 }
 
 .hero-photo {
@@ -353,7 +354,7 @@ main.wrap { padding-bottom: 80px; }  /* bottom space on every page, and above th
 /* --- Timeline --- */
 /* Each phase gets its own vertical line; the gap between lines separates phases */
 .phase {
-    border-left: 2px solid var(--line);
+    border-left: 2px solid #909a78;  /* sage green */
     padding: 4px 0 6px 28px;
     margin-bottom: 44px;
 }
@@ -632,6 +633,7 @@ body[data-page="life"] main p a { font-weight: 600; }
     .nav-icons { margin: 8px 0 0; padding: 8px 0 0; border-left: 0; border-top: 1px solid var(--line); }
 
     .page-title { font-size: 1.8rem; }
+    .hero { padding-top: 28px; }
     .hero-text h1 { font-size: 1.9rem; }
 
 
